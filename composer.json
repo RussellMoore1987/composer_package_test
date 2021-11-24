@@ -1,0 +1,19 @@
+{
+    "name": "creative_studio/composer_package_test",
+    "description": "This is just testing to see how to work with a package using composer",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SayHi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Russell Moore",
+            "email": "truthandgoodness87@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
